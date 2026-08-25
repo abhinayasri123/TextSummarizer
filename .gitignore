@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+*.spec
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Streamlit cache
+.streamlit/secrets.toml
+
+# App temp files (auto-generated, not needed in repo)
+uploads/
+outputs/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# NLTK data (downloaded at runtime)
+nltk_data/
